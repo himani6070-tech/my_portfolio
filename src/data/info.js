@@ -1,3 +1,5 @@
+import { img } from "framer-motion/client";
+
 const info = {
   // ---------- BASICS ----------
   name: "Himani Singh Bisht",
@@ -19,7 +21,7 @@ const info = {
     "I started with a simple e-commerce app, ShopEase, and kept building: clones, new frameworks and now backend. Every project teaches me something the last one didn't.",
     "TODO: what you do outside coding (hobbies, books, games, music).",
   ],
-  aboutPhoto: "", // e.g. "/images/about.jpg"
+  aboutPhoto: "/images/photo.png", 
 
   funFacts: [
     "TODO: a fun fact about you",
@@ -87,7 +89,7 @@ const info = {
       title: "ShopEase",
       description:
         "A demo e-commerce app with a shopping cart, product management and category-wise filtering.",
-      tech: ["React", "JavaScript", "CSS","Next.js"],
+      tech: ["React", "JavaScript", "Vite", "Tailwind CSS", "Axios"],
       features: ["Add to cart", "Product management", "Category-wise filter"],
       status: "Completed",
       github: "https://github.com/himani6070-tech/mini-e-commerce-", // TODO
@@ -97,13 +99,34 @@ const info = {
     {
       title: "Blinkit Clone",
       description: "TODO: describe what your Blinkit clone does.",
-      tech: ["React", "JavaScript"], // TODO: confirm
-      features: [], // TODO
+      tech: ["React", "Bootstrap"], // TODO: confirm
+      features: ["slider","dummy api product"], // TODO
       status: "TODO",
-      github: "",
-      live: "",
+      github: "https://github.com/himani6070-tech/blinkit",
+      live: "https://blinkit-neon.vercel.app/",
       image: "",
     },
+     {
+      title: "foodie-website",
+    description: "A responsive web application built with Next.js and Tailwind CSS, featuring modern UI and smooth page navigation.",
+tech: ["Next.js", "React", "JavaScript", "Tailwind CSS", "Lucide React"],
+features: ["Page navigation", "Responsive design", "Modern UI", "Lucide icons"],
+status: "Completed",
+      github: "https://github.com/himani6070-tech/foodie-website",
+      live: "https://foodie-website-8w69-5jyxbwt0v-himani8.vercel.app/menu",
+      image: "",
+    },
+     {
+      title: "movie-search-app",
+      description: "A movie search app built with HTML, CSS, and JavaScript to search movies and explore their details.",
+tech: ["HTML", "CSS", "JavaScript"],
+features: ["Movie search", "Movie details", "API integration"],
+status: "Completed",
+      github: "https://github.com/himani6070-tech/movie-search-app",
+      live: "https://movie-search-1fsjk0ep7-himani8.vercel.app/",
+      image: "",
+    },
+
     // TODO: add your other projects here
   ],
 
@@ -123,12 +146,11 @@ const info = {
 
   // ---------- CONTACT ----------
   contact: {
-    email: "", // TODO
+    email: "himanilaati@gmail.com", // TODO
     github: "", // TODO
     linkedin: "", // TODO
     twitter: "", // TODO (optional)
     leetcode: "", // TODO (optional)
   },
 };
-
 export default info;
