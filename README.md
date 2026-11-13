@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-A personal portfolio website built using **Next.js, React.js, and Tailwind CSS** to showcase my skills, projects, and experience as a web developer.
+A personal portfolio website built using ** React.js, and Tailwind CSS** to showcase my skills, projects, and experience as a web developer.
 
 ## ✨ Features
 - Personal introduction and about section.
@@ -11,7 +11,6 @@ A personal portfolio website built using **Next.js, React.js, and Tailwind CSS**
 - Responsive design for all devices.
 
 ## 🛠️ Technologies Used
-- Next.js
 - React.js
 - JavaScript
 - Tailwind CSS
