@@ -173,3 +173,33 @@ img { max-width: 100%; display: block; }
   .hero { padding-top: 4vh; }
   .about { flex-direction: column; text-align: left; }
 }
+.resume-section {
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.resume-section h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.resume-section p {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: #d86b91;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: #bd5279;
+  transform: translateY(-2px);
+}

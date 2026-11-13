@@ -7,11 +7,10 @@ const info = {
   role: "Frontend Developer",
   roleSub: "Learning Full Stack",
   status: "Open to internships and learning opportunities", // TODO: edit or remove
-  location: "", // TODO: e.g. "India"
-  resume: "", // TODO: e.g. "/resume.pdf" (put the file in /public)
-
+  location: "jaipur, rajasthan", // TODO: e.g. "India"
+  resume: "/resume/Himani_Bisht_Resume.pdf", // TODO: e.g. "/resume.pdf" (put the file in /public)
   tagline:
-    "A frontend developer who loves turning ideas into clean, working websites, and is always learning something new.",
+    "A passionate Frontend Developer who loves transforming creative ideas into clean, responsive, and user-friendly websites. I enjoy building interactive web experiences, exploring new technologies, and continuously improving my skills. Always curious, eager to learn, and excited to turn ideas into reality through code. ✨",
   avatar: "/images/himani.jpeg", // e.g. "/images/avatar.png"
 
   // ---------- ABOUT ----------
@@ -32,9 +31,9 @@ const info = {
   // ---------- EDUCATION ----------
   education: [
     {
-      school: "", // TODO: college / university
-      degree: "", // TODO: e.g. B.Tech in Computer Science
-      year: "", // TODO: e.g. 2023 - 2027
+      school: "S. S. jain subodh p.g. (autonomous) college", // TODO: college / university
+      degree: "Bachelor of computer application", // TODO: e.g. B.Tech in Computer Science
+      year: "2023 - 2026", // TODO: e.g. 2023 - 2027
     },
   ],
 
@@ -69,6 +68,8 @@ const info = {
     "HTML5",
     "CSS3",
     "JavaScript",
+    "Bootstrap",
+    "tailwind",
     "React",
     "Next.js",
     "Vite",
@@ -126,13 +127,33 @@ status: "Completed",
       live: "https://movie-search-1fsjk0ep7-himani8.vercel.app/",
       image: "",
     },
+     {
+        title: "todo list",
+        description: "A Todo List app built using HTML, CSS, and JavaScript to add, manage, and track daily tasks with a simple and user-friendly interface.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        features: ["Add tasks", "Delete tasks", "Mark tasks as completed", "Task management"],
+        status: "Completed",
+      github: "https://github.com/himani6070-tech/to-do-list",
+      live: "https://to-do-list-three-delta-88.vercel.app/",
+      image: "",
+    },
+     {
+       title: "Image Slider",
+      description: "An interactive Image Slider built using HTML, CSS, and JavaScript. It allows users to navigate through images smoothly using next and previous buttons.",
+      tech: ["HTML", "CSS", "JavaScript"],
+       features: ["Next and previous buttons", "Smooth image navigation", "Interactive image display", "Responsive design"],
+      status: "Completed",
+      github: "https://github.com/himani6070-tech/slider-",
+      live: "https://slider-minitask.vercel.app/",
+      image: "",
+    }
 
     // TODO: add your other projects here
   ],
 
   // ---------- LEARNING ----------
   learning: {
-    currently: ["Next.js", "Backend development"],
+    currently: ["Node.js", "MongoDB", "Backend development"],
     next: [], // TODO: e.g. ["Node.js", "MongoDB", "TypeScript"]
     note: "I believe the best developers never stop learning, so I build something new with every skill I pick up.",
   },
@@ -149,8 +170,8 @@ status: "Completed",
     email: "himanilaati@gmail.com", // TODO
     github: "", // TODO
     linkedin: "", // TODO
-    twitter: "", // TODO (optional)
-    leetcode: "", // TODO (optional)
+    // twitter: "", // TODO (optional)
+    // leetcode: "", // TODO (optional)
   },
 };
 export default info;

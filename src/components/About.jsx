@@ -2,6 +2,7 @@ import info from "../data/info";
 
 export default function About() {
   return (
+     <>
     <section className="section about" id="about">
       <div className="about__text">
         <h2>About Me 🌸</h2>
@@ -17,5 +18,20 @@ export default function About() {
         )}
       </div>
     </section>
+    <section className="section resume-section">
+      <h2>📄 My Resume</h2>
+      <p>Explore my skills and projects in my resume.</p>
+
+      <a
+    href={info.resume}
+    target="_blank"
+    rel="noopener noreferrer"
+    download
+    className="resume-btn"
+    >
+    Download Resume ↓
+      </a>
+    </section>
+   </>
   );
 }
